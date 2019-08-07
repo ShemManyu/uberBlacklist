@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="uber-blacklist$sources"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190807142634"/>
+	<dependencies>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.5.16" status="release" pubdate="20180829203515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3539" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.5.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.16/akka-stream_2.12-2.5.16.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.5.16" rev-constraint-default="2.5.16" rev-constraint-dynamic="2.5.16" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="488076" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/srcs/akka-stream_2.12-2.5.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.5.16/akka-stream_2.12-2.5.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.2.4" status="release" pubdate="20180629172202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3727" time="0" location="/home/davis/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.4/ssl-config-core_2.12-0.2.4.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="0.2.4" rev-constraint-default="0.2.4" rev-constraint-dynamic="0.2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49621" time="0" location="/home/davis/.ivy2/cache/com.typesafe/ssl-config-core_2.12/srcs/ssl-config-core_2.12-0.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.4/ssl-config-core_2.12-0.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.12">
+			<revision name="2.5.16" status="release" pubdate="20180829202709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2810" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/ivy-2.5.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.16/akka-protobuf_2.12-2.5.16.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.5.16" rev-constraint-default="2.5.16" rev-constraint-dynamic="2.5.16" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276925" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.12/srcs/akka-protobuf_2.12-2.5.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.5.16/akka-protobuf_2.12-2.5.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.12">
+			<revision name="2.5.16" status="release" pubdate="20180829203258" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3347" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/ivy-2.5.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.16/akka-slf4j_2.12-2.5.16.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.5.16" rev-constraint-default="2.5.16" rev-constraint-dynamic="2.5.16" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2527" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/srcs/akka-slf4j_2.12-2.5.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.5.16/akka-slf4j_2.12-2.5.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-spray-json_2.12">
+			<revision name="10.1.5" status="release" pubdate="20180905182838" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3399" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/ivy-10.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.5/akka-http-spray-json_2.12-10.1.5.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="10.1.5" rev-constraint-default="10.1.5" rev-constraint-dynamic="10.1.5" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/"/>
+				<artifacts>
+					<artifact name="akka-http-spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3813" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http-spray-json_2.12/srcs/akka-http-spray-json_2.12-10.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.12/10.1.5/akka-http-spray-json_2.12-10.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.24" status="release" pubdate="20150508135540" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2538" time="0" location="/home/davis/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.24.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="5.1.24" rev-constraint-default="5.1.24" rev-constraint-dynamic="5.1.24" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="769037" time="0" location="/home/davis/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.24-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.24/mysql-connector-java-5.1.24-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.firebase" name="firebase-server-sdk">
+			<revision name="3.0.1" status="release" pubdate="20160604013401" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.firebase.com/docs/java-quickstart.html/firebase-client-jvm" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Commercial" url="https://www.firebase.com/terms/terms-of-service.html"/>
+				<metadata-artifact status="no" details="" size="3513" time="0" location="/home/davis/.ivy2/cache/com.google.firebase/firebase-server-sdk/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/firebase/firebase-server-sdk/3.0.1/firebase-server-sdk-3.0.1.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="firebase-server-sdk" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1586" time="0" location="/home/davis/.ivy2/cache/com.google.firebase/firebase-server-sdk/srcs/firebase-server-sdk-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/firebase/firebase-server-sdk/3.0.1/firebase-server-sdk-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.6.2" status="release" pubdate="20160227053201" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3507" time="0" location="/home/davis/.ivy2/cache/com.google.code.gson/gson/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="145435" time="0" location="/home/davis/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.12">
+			<revision name="10.1.5" status="release" pubdate="20180905184856" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3106" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="10.1.5" rev-constraint-default="10.1.5" rev-constraint-dynamic="10.1.5" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/"/>
+				<artifacts>
+					<artifact name="akka-http_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201826" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.5/akka-http_2.12-10.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.16" status="release" pubdate="20180829202558" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.16/akka-actor_2.12-2.5.16.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.5.16" rev-constraint-default="2.5.16" rev-constraint-dynamic="2.5.16" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.16"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="552713" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/srcs/akka-actor_2.12-2.5.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.16/akka-actor_2.12-2.5.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030011227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/davis/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63853" time="0" location="/home/davis/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/srcs/scala-java8-compat_2.12-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.3" status="release" pubdate="20180221170821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2874" time="0" location="/home/davis/.ivy2/cache/com.typesafe/config/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172783" time="0" location="/home/davis/.ivy2/cache/com.typesafe/config/srcs/config-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316193632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/home/davis/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/home/davis/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.1.5" status="release" pubdate="20180905182608" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3730" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="10.1.5" rev-constraint-default="10.1.5" rev-constraint-dynamic="10.1.5" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="430460" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/srcs/akka-http-core_2.12-10.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.5/akka-http-core_2.12-10.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.1.5" status="release" pubdate="20180905184740" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3109" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="10.1.5" rev-constraint-default="10.1.5" rev-constraint-dynamic="10.1.5" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.1.5/"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63784" time="0" location="/home/davis/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/srcs/akka-parsing_2.12-10.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.5/akka-parsing_2.12-10.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171218230638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/home/davis/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/home/davis/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.1" status="release" pubdate="20180609040928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/home/davis/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47350" time="0" location="/home/davis/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.12">
+			<revision name="1.3.4" status="release" pubdate="20171024095349" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3081" time="0" location="/home/davis/.ivy2/cache/io.spray/spray-json_2.12/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.4/spray-json_2.12-1.3.4.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23747" time="0" location="/home/davis/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.4/spray-json_2.12-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204131556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/davis/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1020924" time="0" location="/home/davis/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20160212" status="release" pubdate="20160214041631" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/douglascrockford/JSON-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The JSON License" url="http://json.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4161" time="0" location="/home/davis/.ivy2/cache/org.json/json/ivy-20160212.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20160212/json-20160212.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="20160212" rev-constraint-default="20160212" rev-constraint-dynamic="20160212" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50738" time="0" location="/home/davis/.ivy2/cache/org.json/json/srcs/json-20160212-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20160212/json-20160212-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client-gson">
+			<revision name="1.21.0" status="release" pubdate="20151120012116" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11244" time="0" location="/home/davis/.ivy2/cache/com.google.api-client/google-api-client-gson/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-gson/1.21.0/google-api-client-gson-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-api-client-gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3444" time="0" location="/home/davis/.ivy2/cache/com.google.api-client/google-api-client-gson/srcs/google-api-client-gson-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-gson/1.21.0/google-api-client-gson-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client">
+			<revision name="1.21.0" status="release" pubdate="20151120012037" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12009" time="0" location="/home/davis/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.21.0/google-api-client-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-api-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="190521" time="0" location="/home/davis/.ivy2/cache/com.google.api-client/google-api-client/srcs/google-api-client-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.21.0/google-api-client-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-gson">
+			<revision name="1.21.0" status="release" pubdate="20151120012739" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9981" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client-gson/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.21.0/google-http-client-gson-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-http-client-gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6262" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client-gson/srcs/google-http-client-gson-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-gson/1.21.0/google-http-client-gson-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-jackson2">
+			<revision name="1.21.0" status="release" pubdate="20151120012758" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10005" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.21.0/google-http-client-jackson2-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-http-client-jackson2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5483" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client-jackson2/srcs/google-http-client-jackson2-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.21.0/google-http-client-jackson2-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.1.3" status="release" pubdate="20130120000627" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/home/davis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="218774" time="0" location="/home/davis/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.oauth-client" name="google-oauth-client">
+			<revision name="1.21.0" status="release" pubdate="20151120012343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9866" time="0" location="/home/davis/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.21.0/google-oauth-client-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-oauth-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="67251" time="0" location="/home/davis/.ivy2/cache/com.google.oauth-client/google-oauth-client/srcs/google-oauth-client-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.21.0/google-oauth-client-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client">
+			<revision name="1.21.0" status="release" pubdate="20151120012646" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10506" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.21.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.21.0/google-http-client-1.21.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.21.0" rev-constraint-default="1.21.0" rev-constraint-dynamic="1.21.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="google-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266222" time="0" location="/home/davis/.ivy2/cache/com.google.http-client/google-http-client/srcs/google-http-client-1.21.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.21.0/google-http-client-1.21.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.0.1" status="release" pubdate="20091209222018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache License" url="../LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5178" time="0" location="/home/davis/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="389445" time="0" location="/home/davis/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.3" status="release" pubdate="20151125082138" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="/home/davis/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="file:/home/davis/activator-package-1.3.7/activator-dist-1.3.7/repository/commons-codec/commons-codec/1.3/ivys/ivy.xml"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55191" time="0" location="/home/davis/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20151123130402" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<metadata-artifact status="no" details="" size="4087" time="0" location="/home/davis/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="file:/home/davis/activator-package-1.3.7/activator-dist-1.3.7/repository/commons-logging/commons-logging/1.1.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="/home/davis/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.0.1" status="release" pubdate="20090621140836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4460" time="0" location="/home/davis/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="291844" time="0" location="/home/davis/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava-jdk5">
+			<revision name="17.0" status="release" pubdate="20140423000923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5878" time="0" location="/home/davis/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.pom"/>
+				<caller organisation="default" name="uber-blacklist$sources" conf="compile, runtime" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava-jdk5" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1225484" time="0" location="/home/davis/.ivy2/cache/com.google.guava/guava-jdk5/srcs/guava-jdk5-17.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
