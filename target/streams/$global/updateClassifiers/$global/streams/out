@@ -4859,13 +4859,13 @@
 [debug] 	[NOT REQUIRED] com.google.api-client#google-api-client-gson;1.21.0!google-api-client-gson.jar(src)
 [debug] 	[NOT REQUIRED] com.google.http-client#google-http-client-jackson2;1.21.0!google-http-client-jackson2.jar(src)
 [debug] 	[NOT REQUIRED] org.json#json;20160212!json.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.4!spray-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.1.3!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.5!akka-http-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.google.oauth-client#google-oauth-client;1.21.0!google-oauth-client.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.google.http-client#google-http-client-gson;1.21.0!google-http-client-gson.jar(src)
 [debug] 	[NOT REQUIRED] com.google.api-client#google-api-client;1.21.0!google-api-client.jar(src)
@@ -4878,25 +4878,25 @@
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.5!akka-http-spray-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.3!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.16!akka-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.16!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.16!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.6.2!gson.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.4!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.6.2!gson.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava-jdk5;17.0!guava-jdk5.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.5!akka-parsing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.16!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-testkit_2.12;10.1.5!akka-http-testkit_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-testkit_2.12;2.5.12!akka-stream-testkit_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.12;2.5.16!akka-testkit_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
-[debug] :: resolution report :: resolve 521ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 585ms :: artifacts dl 31ms
 [debug] 	report for default#uber-blacklist$sources;0.1 compile produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-compile.xml
 [debug] 	report for default#uber-blacklist$sources;0.1 runtime produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-runtime.xml
 [debug] 	report for default#uber-blacklist$sources;0.1 test produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-test.xml
@@ -4916,4 +4916,4 @@
 [debug] 	report for default#uber-blacklist$sources;0.1 plugin produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-plugin.xml
 [debug] 	report for default#uber-blacklist$sources;0.1 pom produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-pom.xml
 [debug] 	report for default#uber-blacklist$sources;0.1 scala-tool produced in /home/davis/Documents/Uber blacklist/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-scala-tool.xml
-[debug] 	resolve done (521ms resolve - 20ms download)
+[debug] 	resolve done (585ms resolve - 31ms download)
