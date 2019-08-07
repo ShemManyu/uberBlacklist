@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>default</groupId>
+    <groupId>uber-blacklist</groupId>
     <artifactId>uber-blacklist_2.12</artifactId>
     <packaging>jar</packaging>
     <description>Uber blacklist</description>
     <version>0.1</version>
     <name>Uber blacklist</name>
     <organization>
-        <name>default</name>
+        <name>uber-blacklist</name>
     </organization>
     <dependencies>
         <dependency>
