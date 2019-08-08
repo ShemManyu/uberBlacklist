@@ -11,13 +11,14 @@ import akka.stream.ActorMaterializer
 import scala.io.StdIn
 
 object UBApp {
-  def main(args: Array[String]): Unit = {
-    implicit val system           = ActorSystem()
-    implicit val materializer     = ActorMaterializer()
-    implicit val executionContext = system.dispatcher
+    def main(args: Array[String]): Unit = {
+      /*implicit val system           = ActorSystem()
+      implicit val materializer     = ActorMaterializer()
+      implicit val executionContext = system.dispatcher*/
 
-    val port: Int = sys.env.getOrElse("PORT", "8081").toInt
-    WebServer.startServer("0.0.0.0", port)
+      val port: Int = sys.env.getOrElse("PORT", "8080").toInt
+      WebServer.startServer("0.0.0.0", port)
+    }
 
     /*
     Local deployment
@@ -28,13 +29,13 @@ object UBApp {
     bindingFuture
       .flatMap(_.unbind())
       .onComplete(_ => system.terminate())*/
-  }
+
 }
 object WebServer extends HttpApp {
   override protected def routes: Route =
-    pathEndOrSingleSlash{
+    pathEndOrSingleSlash {
       get {
-        complete("Uber app is online")
+        complete("It works")
       }
     }
 }
