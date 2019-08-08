@@ -9,6 +9,8 @@ val akkaHttpVersion   = "10.1.5"
 val akkaVersion       = "2.5.16"
 val firebaseVersion   = "3.0.1"
 
+enablePlugins(JavaAppPackaging)
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka"     %%      "akka-actor"            % akkaVersion,
   "com.typesafe.akka"     %%      "akka-stream"           % akkaVersion,
@@ -21,5 +23,3 @@ libraryDependencies ++= Seq(
   "com.google.firebase"   %    "firebase-server-sdk"      % firebaseVersion,
   "mysql"                 %   "mysql-connector-java"      % "5.1.24"
 )
-
-enablePlugins(JavaAppPackaging)
