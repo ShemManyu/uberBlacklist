@@ -10,7 +10,7 @@ import akka.stream.ActorMaterializer
 
 import scala.io.StdIn
 
-object UBApp {
+object Main {
     def main(args: Array[String]): Unit = {
       /*implicit val system           = ActorSystem()
       implicit val materializer     = ActorMaterializer()
