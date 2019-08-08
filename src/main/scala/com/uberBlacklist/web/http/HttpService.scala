@@ -18,8 +18,8 @@ import com.uberBlacklist.core.util.DBConnectionHandler._
 }
 */
 
-object UBHttpServiceT extends HttpApp with UBHttpJsonSupportT with Directives {
-  override protected def routes: Route =
+object UBHttpServiceT extends UBHttpJsonSupportT with Directives {
+  val route =
     path(""){
       get {
         complete("Uber blacklist is deployed")
