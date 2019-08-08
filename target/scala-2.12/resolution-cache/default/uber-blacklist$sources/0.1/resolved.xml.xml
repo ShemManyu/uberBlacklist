@@ -4,7 +4,7 @@
 		module="uber-blacklist$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190809012146"
+		publication="20190809013235"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
