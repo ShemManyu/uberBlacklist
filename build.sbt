@@ -11,6 +11,8 @@ val firebaseVersion   = "3.0.1"
 
 enablePlugins(JavaAppPackaging)
 
+mainClass in Compile := Some("com.uberBlacklist.web.service.UBApp")
+
 libraryDependencies ++= Seq(
   "com.typesafe.akka"     %%      "akka-actor"            % akkaVersion,
   "com.typesafe.akka"     %%      "akka-stream"           % akkaVersion,

@@ -4,7 +4,7 @@
 		module="uber-blacklist_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190808164022"
+		publication="20190808190048"
 	>
 		<description>
 		Uber blacklist
@@ -38,7 +38,7 @@
 		<artifact name="uber-blacklist_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default);runtime->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.12" rev="2.5.16" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.16" conf="compile->default(compile)"/>

@@ -2,14 +2,24 @@ package com.uberBlacklist.web
 package http
 
 import akka.event.Logging
-import akka.http.scaladsl.server.Directives
+import akka.http.scaladsl.server.{Directives, HttpApp, Route}
 import com.uberBlacklist.UBDriver.UBDriverDetails.{DriverDetailsRequest, DriverDetailsResponse}
 import com.uberBlacklist.rating.RatingService.{RatingRequest, RatingResponse, rater}
 import com.uberBlacklist.web.http.marshalling.UBHttpJsonSupportT
 import com.uberBlacklist.core.util.DBConnectionHandler._
 
-trait UBHttpServiceT extends UBHttpJsonSupportT with Directives {
-  val route =
+/*
+  1.Local signature
+  val route = ???
+
+  2.Deployment signature
+  object importer extends HttpApp {
+  override protected def routes: Route = ???
+}
+*/
+
+object UBHttpServiceT extends HttpApp with UBHttpJsonSupportT with Directives {
+  override protected def routes: Route =
     path("UBapi" / "service" / "driver" / "rate") {
       logRequestResult("driver:rate", Logging.InfoLevel) {
         post{
