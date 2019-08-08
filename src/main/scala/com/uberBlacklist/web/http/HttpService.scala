@@ -20,7 +20,7 @@ import com.uberBlacklist.core.util.DBConnectionHandler._
 
 object UBHttpServiceT extends HttpApp with UBHttpJsonSupportT with Directives {
   override protected def routes: Route =
-    pathEndOrSingleSlash {
+    path(""){
       get {
         complete("Uber blacklist is deployed")
       }
