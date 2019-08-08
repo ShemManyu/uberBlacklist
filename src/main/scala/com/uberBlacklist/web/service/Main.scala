@@ -17,7 +17,7 @@ object UBApp {
     implicit val executionContext = system.dispatcher
 
     val port: Int = sys.env.getOrElse("PORT", "8080").toInt
-    UBHttpServiceT.startServer("0.0.0.0", port)
+    WebServer.startServer("0.0.0.0", port)
 
     /*
     Local deployment
@@ -29,4 +29,12 @@ object UBApp {
       .flatMap(_.unbind())
       .onComplete(_ => system.terminate())*/
   }
+}
+object WebServer extends HttpApp {
+  override protected def routes: Route =
+    pathEndOrSingleSlash{
+      get {
+        complete("Uber app is online")
+      }
+    }
 }
