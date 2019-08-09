@@ -1,4 +1,3 @@
-import com.uberBlacklist.web.service.WebServer
 import akka.http.scaladsl.server._
 
 object main2 {
@@ -15,7 +14,7 @@ object WebServer extends HttpApp {
   override protected def routes: Route =
     pathEndOrSingleSlash {
       get {
-        complete("It works")
+        complete("It works fine")
       }
     }
 }
