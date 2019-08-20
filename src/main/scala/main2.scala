@@ -1,3 +1,4 @@
+/*
 import akka.http.scaladsl.server._
 
 object main2 {
@@ -17,4 +18,4 @@ object WebServer extends HttpApp {
         complete("It works fine")
       }
     }
-}
+}*/

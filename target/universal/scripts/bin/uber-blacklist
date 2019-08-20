@@ -329,7 +329,8 @@ Usage: $script_name [options]
 In the case of duplicated or conflicting options, basically the order above
 shows precedence: JAVA_OPTS lowest, command line options highest except "--".
 Available main classes:
-	com.uberBlacklist.web.service.UBApp
+	com.uberBlacklist.web.service.Main
+	main2
 EOM
 }
 
@@ -344,7 +345,7 @@ declare -r real_script_path="$(realpath "$0")"
 declare -r app_home="$(realpath "$(dirname "$real_script_path")")"
 # TODO - Check whether this is ok in cygwin...
 declare -r lib_dir="$(realpath "${app_home}/../lib")"
-declare -a app_mainclass=(com.uberBlacklist.web.service.UBApp)
+declare -a app_mainclass=(main2)
 
 declare -r script_conf_file="${app_home}/../conf/application.ini"
 declare -r app_classpath="$lib_dir/default.uber-blacklist-0.1.jar:$lib_dir/org.scala-lang.scala-library-2.12.8.jar:$lib_dir/com.typesafe.akka.akka-actor_2.12-2.5.16.jar:$lib_dir/com.typesafe.config-1.3.3.jar:$lib_dir/org.scala-lang.modules.scala-java8-compat_2.12-0.8.0.jar:$lib_dir/com.typesafe.akka.akka-stream_2.12-2.5.16.jar:$lib_dir/com.typesafe.akka.akka-protobuf_2.12-2.5.16.jar:$lib_dir/org.reactivestreams.reactive-streams-1.0.2.jar:$lib_dir/com.typesafe.ssl-config-core_2.12-0.2.4.jar:$lib_dir/org.scala-lang.modules.scala-parser-combinators_2.12-1.1.1.jar:$lib_dir/com.typesafe.akka.akka-slf4j_2.12-2.5.16.jar:$lib_dir/org.slf4j.slf4j-api-1.7.25.jar:$lib_dir/com.typesafe.akka.akka-http-spray-json_2.12-10.1.5.jar:$lib_dir/com.typesafe.akka.akka-http_2.12-10.1.5.jar:$lib_dir/com.typesafe.akka.akka-http-core_2.12-10.1.5.jar:$lib_dir/com.typesafe.akka.akka-parsing_2.12-10.1.5.jar:$lib_dir/io.spray.spray-json_2.12-1.3.4.jar:$lib_dir/com.google.firebase.firebase-server-sdk-3.0.1.jar:$lib_dir/com.google.api-client.google-api-client-gson-1.21.0.jar:$lib_dir/com.google.api-client.google-api-client-1.21.0.jar:$lib_dir/com.google.oauth-client.google-oauth-client-1.21.0.jar:$lib_dir/com.google.http-client.google-http-client-1.21.0.jar:$lib_dir/com.google.code.findbugs.jsr305-1.3.9.jar:$lib_dir/org.apache.httpcomponents.httpclient-4.0.1.jar:$lib_dir/org.apache.httpcomponents.httpcore-4.0.1.jar:$lib_dir/commons-logging.commons-logging-1.1.1.jar:$lib_dir/commons-codec.commons-codec-1.3.jar:$lib_dir/com.google.http-client.google-http-client-jackson2-1.21.0.jar:$lib_dir/com.fasterxml.jackson.core.jackson-core-2.1.3.jar:$lib_dir/com.google.guava.guava-jdk5-17.0.jar:$lib_dir/com.google.http-client.google-http-client-gson-1.21.0.jar:$lib_dir/com.google.code.gson.gson-2.6.2.jar:$lib_dir/org.json.json-20160212.jar:$lib_dir/mysql.mysql-connector-java-5.1.24.jar"

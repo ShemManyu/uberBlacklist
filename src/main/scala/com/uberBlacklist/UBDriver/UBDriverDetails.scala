@@ -10,7 +10,15 @@ object UBDriverDetails {
                                         driverName: String,
                                         driverDl: String,
                                         driverPhonenumber: String,
-                                        driverLocation: List[String],
-                                        comments: List[String]
+                                        driverLocation: String,
+                                        comments: String,
+                                        rating: String
                                         )
+  final case class DriverDetailsByLocationRequest(
+                                          userEmail: String,
+                                          driverLocation: String
+                                          )
+  final case class DriverDetailsByLocationResponse(
+                                                  drivers: List[String]
+                                                  )
 }

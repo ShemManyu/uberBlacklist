@@ -1,1 +1,29 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/davis/Documents/Uber blacklist/target/scala-2.12/uber-blacklist_2.12-0.1-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/davis/Documents/Uber blacklist/target/scala-2.12/uber-blacklist_2.12-0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/UBDriver/UBDriverDetails.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/http/marshalling/JsonSupport.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/socket/SocketService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/socket/SocketService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/service/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/service/Server.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/main2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/service/ActorPool.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/service/ActorPool.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/core/util/DBConnectionHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/core/util/DBConnectionHandler.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/service/testRoute.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/service/testRoute.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/feedback/OwnerFeedback.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/feedback/OwnerFeedback.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/core/util/UBJsonProtocol.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/core/util/UBJsonProtocol.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/http/HttpService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/http/HttpService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/web/service/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/web/service/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/uberBlacklist/rating/RatingService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/davis/Documents/Uber blacklist/src/main/scala/com/uberBlacklist/rating/RatingService.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
