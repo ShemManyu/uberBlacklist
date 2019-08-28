@@ -4,7 +4,7 @@
 		module="uber-blacklist-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190818143513"
+		publication="20190823135401"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

@@ -10,6 +10,7 @@ object RatingService {
                                   driverPhonenumber: String,
                                   driverLocation: String,
                                   comment: String,
+                                  reporter: String,
 
                                   quotaRating: String,
                                   conductRating: String,
@@ -28,7 +29,8 @@ object RatingService {
                                   driverDl: String,
                                   driverPhonenumber: String,
                                   driverLocation: String,
-                                  rating: Double
+                                  rating: Double,
+                                  reporter: String
                                   )
   /*final case class PoorDriverRateRequest(
                                           remitsQuotaRating: Double,

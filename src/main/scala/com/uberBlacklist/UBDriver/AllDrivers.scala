@@ -1,12 +1,16 @@
 package com.uberBlacklist.UBDriver
 
-import org.json.JSONObject
+
+import scala.collection.mutable.{ ListBuffer, Map }
 
 object AllDrivers {
   final case class AllDriversRequest(
                                     allDrivers:String
                                   )
   final case class AllDriversResponse(
-                                     allDrivers: List[String]
+                                     allDrivers: Map[String, String]
                                    )
+  final case class AllDriverNames (
+                        names: ListBuffer[String]
+                      )
 }

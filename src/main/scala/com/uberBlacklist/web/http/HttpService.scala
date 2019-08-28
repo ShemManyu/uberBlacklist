@@ -10,13 +10,11 @@ import com.uberBlacklist.web.http.marshalling.UBHttpJsonSupportT
 import com.uberBlacklist.core.util.DBConnectionHandler._
 import akka.http.scaladsl.server.Directives
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import com.google.gson.JsonObject
-import com.uberBlacklist.UBDriver.AllDrivers.{AllDriversRequest, AllDriversResponse}
+import com.uberBlacklist.UBDriver.AllDrivers.{AllDriverNames, AllDriversRequest, AllDriversResponse}
 import com.uberBlacklist.comments.commentsService.{CommentsRequest, CommentsResponse}
 import spray.json._
 
-import scala.util.parsing.json.JSONObject
-
+import scala.collection.mutable.{ ListBuffer, Map }
 
 /*
   1.Local signature
@@ -45,6 +43,7 @@ object UBHttpServiceT extends UBHttpJsonSupportT with Directives with SprayJsonS
             val mdriverPhonenumber = request.driverPhonenumber
             val mdriverLocation    = request.driverLocation
             val mcomment           = request.comment
+            val mreporter          = request.reporter
             val mquotaRating       = request.quotaRating
             val mconductRating     = request.conductRating
             val mtheftRating       = request.theftRating
@@ -101,16 +100,16 @@ object UBHttpServiceT extends UBHttpJsonSupportT with Directives with SprayJsonS
               try {
                 val insertStatement = connection.createStatement()
                 val query           = insertStatement.executeUpdate(
-                  s"INSERT INTO TableDrivers (rating, driverName, DL, userEmail, driverPhonenumber, quotaRating, conductRating, theftRating, workEthicRating, damageRating, trustRating, initiativeRating, custodianRating, responsibleRating, professionalRating, driverLocation, comment" +
+                  s"INSERT INTO TableDrivers (rating, driverName, DL, userEmail, driverPhonenumber, quotaRating, conductRating, theftRating, workEthicRating, damageRating, trustRating, initiativeRating, custodianRating, responsibleRating, professionalRating, driverLocation, comment, reporter" +
                     s") VALUES (" +
                     s"'$ratingDigest', '$mdriverName', '$mdriverDl', '$muserEmail', '$mdriverPhonenumber', '$qtRating', '$cdRating', '$tfRating', '$etRating', '$dmgRating'," +
-                    s" $tstRating, $inRating, $cuRating, $rblRating, $profRating,'$mdriverLocation', '$mcomment' " +
+                    s" $tstRating, $inRating, $cuRating, $rblRating, $profRating,'$mdriverLocation', '$mcomment', '$mreporter' " +
                     s")")
               } catch {
                 case e: Exception => e.printStackTrace()
               }
               RatingResponse(
-                muserEmail, mdriverDl, mdriverPhonenumber, mdriverLocation, ratingDigest
+                muserEmail, mdriverDl, mdriverPhonenumber, mdriverLocation, ratingDigest, mreporter
               )
             }
           }
@@ -261,36 +260,30 @@ object UBHttpServiceT extends UBHttpJsonSupportT with Directives with SprayJsonS
         logRequestResult("driver:details", Logging.InfoLevel) {
           post {
             entity(as [CommentsRequest]) { request =>
-              val mDriverdl = request.driverDl
+              val mDriverName = request.driverName
               //Select values  from db
               //Pass them as cc arguments to be sent as response
               val selectStatement = connection.createStatement()
               val query           = selectStatement.executeQuery(
-                s"SELECT `comment`, `reporter` FROM TableDrivers WHERE DL='$mDriverdl';"
+                s"SELECT `comment`, `reporter` FROM TableDrivers WHERE driverName='$mDriverName';"
               )
-              val detailsArray = new Array[String](20)
+              val commentsMapper = Map.empty[String, String]
               while (query.next) {
                 val comment    = query.getString("comment")
                 val reporter   = query.getString("reporter")
-                //DriverDetailsResponse(mdriverName, driverDl, driverPhonenumber, driverLocation, comment)
 
-                detailsArray(0) = comment
-                detailsArray(1) = reporter
+                commentsMapper += (comment -> reporter)
               }
               complete {
-                val a1 = detailsArray(0)
-                val a2 = detailsArray(1)
-                /*val a3 = detailsArray(2)
-                val a4 = detailsArray(3)
-                val a5 = detailsArray(4)*/
-                //CommentsResponse(List(a1, a2))
-                "OK"
+                println(commentsMapper)
+                ""
+                //CommentsResponse(commentsMapper.toMap).toJson.prettyPrint
               }
             }
           }
         }
       } ~
-      path("UBapi" / "service" / "driver" / "drivers") {
+      path("UBapi" / "service" / "driver" / "names") {
         logRequestResult("driver:details", Logging.InfoLevel) {
           post {
             entity(as [AllDriversRequest]) { request =>
@@ -301,42 +294,18 @@ object UBHttpServiceT extends UBHttpJsonSupportT with Directives with SprayJsonS
               val query           = selectStatement.executeQuery(
                 s"SELECT * FROM TableDrivers ;"
               )
-              val detailsArray = new Array[String](20)
+
+              val detailsListBuffer = new ListBuffer[String]()
+
               while (query.next) {
                 val name    = query.getString("driverName")
-                val reporter = query.getString("reporter")
-                val comment = query.getString("comment")
-                val rating = query.getString("rating")
-                val userEmail = query.getString("userEmail")
-                val driverPhoneNumber = query.getString("driverPhoneNumber")
-                //DriverDetailsResponse(mdriverName, driverDl, driverPhonenumber, driverLocation, comment)
-
-                detailsArray(0) = name
-                detailsArray(1) = reporter
-                detailsArray(2) = comment
-                detailsArray(3) = rating
-                detailsArray (4) = userEmail
-                detailsArray (5) = driverPhoneNumber
+                detailsListBuffer += name
               }
               complete {
-                val a1 = detailsArray(0)
-                /*val a2 = detailsArray(1)
-                val a3 = detailsArray(2)
-                val a4 = detailsArray(3)
-                val a5 = detailsArray(4)
-                val a6 = detailsArray(5)*/
-
-                AllDriversResponse(List(a1))
+                AllDriverNames(detailsListBuffer).toJson.prettyPrint
               }
             }
           }
         }
       }
-  /*path("UBapi" / "service" / "driver" / "location") {
-    logRequestResult("driver:location", Logging.InfoLevel) {
-      post {
-        entity(as [])
-      }
-    }
-  }*/
 }

@@ -2,37 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15c8061-2abe-4586-844e-e6a428a19755" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/uber-blacklist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/uber-blacklist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$e9db80459b8ec5443623$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$e9db80459b8ec5443623.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$e9db80459b8ec5443623.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$258be9dbc0a1b117c4dd$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$258be9dbc0a1b117c4dd.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$258be9dbc0a1b117c4dd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ca7f623335f2f0b62e1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ca7f623335f2f0b62e1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ca7f623335f2f0b62e1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2cc8b298fb9f96dc5bf7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2cc8b298fb9f96dc5bf7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2cc8b298fb9f96dc5bf7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48d916df50bd59315692$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48d916df50bd59315692.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$48d916df50bd59315692.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffc014190ca27fe82fe$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffc014190ca27fe82fe.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffc014190ca27fe82fe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a27a44c253da84426f5f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a27a44c253da84426f5f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a27a44c253da84426f5f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b33a4b5a44f7044b86e5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b33a4b5a44f7044b86e5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b33a4b5a44f7044b86e5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c03b73b7897ea365e1e6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c03b73b7897ea365e1e6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c03b73b7897ea365e1e6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$592bdcac7da9604bc85c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$592bdcac7da9604bc85c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$592bdcac7da9604bc85c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$02567b21f27153673d3c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$02567b21f27153673d3c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$02567b21f27153673d3c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d0b05e7a04c348fd749$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d0b05e7a04c348fd749.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2d0b05e7a04c348fd749.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47f0259a6ce98db90a8c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47f0259a6ce98db90a8c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$47f0259a6ce98db90a8c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$93cde905e1a8b60d1314$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$93cde905e1a8b60d1314.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$93cde905e1a8b60d1314.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c10210a5636c276f0c49$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c10210a5636c276f0c49.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c10210a5636c276f0c49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d27723f6f425e61adc1a$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d27723f6f425e61adc1a.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d27723f6f425e61adc1a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fff75b855f455d28d86f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fff75b855f455d28d86f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fff75b855f455d28d86f.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/uber-blacklist-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/uber-blacklist-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/uber-blacklist-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/uber-blacklist-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-compile-internal.xml" afterDir="false" />
@@ -46,11 +41,8 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-scala-tool.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-uber-blacklist-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
@@ -58,49 +50,23 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/core/util/UBJsonProtocol.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/core/util/UBJsonProtocol.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/HttpService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/HttpService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/main2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/http/UBHttpServiceT$.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/http/UBHttpServiceT$.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/http/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/http/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/ActorPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/ActorPool.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/Server.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/Server.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/UBApp$.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/WebServer$.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/WebServer$.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/com/uberBlacklist/web/service/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/WebServer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/WebServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$DriverDetailsResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$DriverDetailsResponse$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$DriverDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails$DriverDetailsResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/UBDriverDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$PoorDriverRateRequest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$PoorDriverRateRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingRequest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingRequest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingResponse$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService$RatingResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/rating/RatingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/marshalling/UBHttpJsonSupportT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/marshalling/UBHttpJsonSupportT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/service/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/service/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/service/WebServer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/service/WebServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers$AllDriversRequest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers$AllDriversRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers$AllDriversResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers$AllDriversResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/UBDriver/AllDrivers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/UBHttpServiceT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/uberBlacklist/web/http/marshalling/UBHttpJsonSupportT.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist$sources/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/uber-blacklist_2.12/0.1/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-compile-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-compile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-debian.xml" afterDir="false" />
@@ -120,50 +86,15 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-universal-src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-universal-src.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-universal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-universal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist$sources-windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-debian.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-debian.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-docker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-docker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-linux.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-linux.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-rpm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-rpm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal-src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal-src.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-universal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-windows.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-uber-blacklist_2.12-windows.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1-javadoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/uber-blacklist_2.12-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/universal/stage/$global/streams/packager-mappings-universal" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/universal/stage/$global/streams/packager-mappings-universal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/universal/scripts/bin/uber-blacklist" beforeDir="false" afterPath="$PROJECT_DIR$/target/universal/scripts/bin/uber-blacklist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/universal/scripts/bin/uber-blacklist.bat" beforeDir="false" afterPath="$PROJECT_DIR$/target/universal/scripts/bin/uber-blacklist.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/bin/uber-blacklist" beforeDir="false" afterPath="$PROJECT_DIR$/target/universal/stage/bin/uber-blacklist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/bin/uber-blacklist.bat" beforeDir="false" afterPath="$PROJECT_DIR$/target/universal/stage/bin/uber-blacklist.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/lib/default.uber-blacklist-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/universal/stage/lib/default.uber-blacklist-0.1.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -181,6 +112,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Uber_blacklist$MyJsonService.ic" NAME="MyJsonService Coverage Results" MODIFIED="1561883438408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Uber_blacklist$Main.ic" NAME="Main Coverage Results" MODIFIED="1566388462860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.uberBlacklist.web.service.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/..">
@@ -195,8 +129,8 @@
       <file leaf-file-name="HttpService.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/HttpService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
+            <state relative-caret-position="-189">
+              <caret line="200" column="59" lean-forward="true" selection-start-line="200" selection-start-column="59" selection-end-line="200" selection-end-column="59" />
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
               </folding>
@@ -204,20 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllDrivers.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JsonSupport.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="270">
+              <caret line="61" column="73" lean-forward="true" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
               <folding>
                 <element signature="e#56#168#0" expanded="true" />
               </folding>
@@ -225,41 +150,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="commentsService.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllDrivers.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UBDriverDetails.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBConnectionHandler.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/core/util/DBConnectionHandler.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#47#97#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -276,17 +189,35 @@
       <file leaf-file-name="RatingService.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="271">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commentsService.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala">
+      <file leaf-file-name="main2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/main2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="306">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OwnerFeedback.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/feedback/OwnerFeedback.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -322,23 +253,23 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/core/util/UBJsonProtocol.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/main2.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/main2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/HttpService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="974" />
-    <option name="y" value="42" />
-    <option name="width" value="946" />
-    <option name="height" value="1033" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="25" />
+    <option name="width" value="1869" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -347,6 +278,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -413,6 +346,16 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="uberBlacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="feedback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uber blacklist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uber blacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="uberBlacklist" type="462c0819:PsiDirectoryNode" />
               <item name="rating" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -425,16 +368,36 @@
               <item name="uberBlacklist" type="462c0819:PsiDirectoryNode" />
               <item name="UBDriver" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Uber blacklist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uber blacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="uberBlacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uber blacklist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uber blacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="uberBlacklist" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plugins&#9;null&#9;null&#10;buildpro&#9;FILE&#9;file:///home/davis/Documents/Uber blacklist/project/build.properties" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/example" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -641,8 +604,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4696604852000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="4278511439" />
+        <entry key="$PROJECT_DIR$" value="4696870442000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4060364000" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="373813561" />
       </map>
@@ -675,30 +638,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="25" width="1869" height="1055" extended-state="7" />
+    <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.324295" />
       <window_info anchor="right" id="sbt" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50082284" side_tool="true" weight="0.63882864" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4991772" weight="0.35357916" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4991772" visible="true" weight="0.32104123" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49972573" visible="true" weight="0.40130153" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972573" weight="0.46963122" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6612319" visible="true" weight="0.2331322" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" weight="0.329718" />
-      <window_info id="Structure" order="1" sideWeight="0.33876812" side_tool="true" visible="true" weight="0.2331322" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6646884" visible="true" weight="0.1941854" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" weight="0.32967034" />
+      <window_info id="Structure" order="1" sideWeight="0.33333334" side_tool="true" weight="0.044677332" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.56290674" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.38720173" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -708,6 +672,38 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.605618" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32900432" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4991772" visible="true" weight="0.1691974" />
+      <window_info anchor="right" id="sbt" order="8" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" weight="0.32967034" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.605618" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49972573" weight="0.46963122" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50082284" side_tool="true" weight="0.63882864" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6646884" weight="0.044677332" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5075922" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.33333334" side_tool="true" weight="0.044677332" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.56290674" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -718,9 +714,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Server.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/web/http/marshalling/JsonSupport.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/ActorPool.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-http_2.12/srcs/akka-http_2.12-10.1.5-sources.jar!/akka/http/scaladsl/server/Directives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -788,13 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar!/spray/json/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -876,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/main2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/main_2.12-1.2.8.jar!/sbt/Keys.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -894,16 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#47#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/core/util/DBConnectionHandler.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -963,6 +925,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/main2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.6.2-sources.jar!/com/google/gson/JsonObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -970,48 +953,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Predef.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="183">
+          <caret line="149" column="7" selection-start-line="149" selection-start-column="7" selection-end-line="149" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.12/srcs/spray-json_2.12-1.3.4-sources.jar!/spray/json/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/service/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/feedback/OwnerFeedback.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/marshalling/JsonSupport.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="270">
+          <caret line="61" column="73" lean-forward="true" selection-start-line="61" selection-start-column="73" selection-end-line="61" selection-end-column="73" />
           <folding>
             <element signature="e#56#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/AllDrivers.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/rating/RatingService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/comments/commentsService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/UBDriver/UBDriverDetails.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="271">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/uberBlacklist/web/http/HttpService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="194" column="10" selection-start-line="194" selection-start-column="10" selection-end-line="194" selection-end-column="10" />
+        <state relative-caret-position="-189">
+          <caret line="200" column="59" lean-forward="true" selection-start-line="200" selection-start-column="59" selection-end-line="200" selection-end-column="59" />
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>
